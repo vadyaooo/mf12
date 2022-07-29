@@ -14,8 +14,8 @@ import repo.UserRepo;
 @CrossOrigin
 public class EnterCont {
 
-    @Autowired
-    private UserRepo userRepo;
+    /*@Autowired
+    private UserRepo userRepo;*/
 
     /*@PostMapping("/alltovarysort")
     public Iterable<Imeiitem> alltovarysort(@RequestBody Imeiitem imeiitem){
@@ -31,11 +31,11 @@ public class EnterCont {
         return items;
     }
 
-    @GetMapping("/alluser")
+    /*@GetMapping("/alluser")
     public Iterable<User> alluser() {
         Iterable<User> items = userRepo.findAll();
         return items;
-    }
+    }*/
 
 
 }
